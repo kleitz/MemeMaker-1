@@ -123,5 +123,6 @@ module.exports = {
   memesShowTag:   memesShowTag,
   memesEdit:   memesEdit,
   memesUpdate: memesUpdate,
-  memesDelete: memesDelete
+  memesDelete: memesDelete,
+  memesNew2: memesNew2
 };
