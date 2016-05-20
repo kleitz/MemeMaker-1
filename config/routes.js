@@ -19,6 +19,9 @@ router.route("/newmeme").get(memesController.memeNew);
 router.route("/memes/new")
   .get(memesController.memesNew);
 
+  router.route("/memes/new2")
+    .get(memesController.memesNew2);
+
 router.route("/memes/:id")
   .get(memesController.memesShow)
   .put(memesController.memesUpdate)

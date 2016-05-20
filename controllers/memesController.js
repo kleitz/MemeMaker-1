@@ -57,6 +57,10 @@ function memesNew(req, res) {
   res.render('memes/new');
 }
 
+function memesNew2(req, res) {
+  res.render('memes/new2');
+}
+
 function memesCreate(req, res){
   memes.push({}); // push empty object to end of array 
   var id = parseInt(memes.length) -1; // go to last item in array
