@@ -1,9 +1,11 @@
 nav {
-  margin-top: 0px;
-background-color: black;
-height: 50px;
-position: relative;
-z-index: 100;
+  margin-top: -7px;
+  background-color: black;
+  height: 50px;
+  position: relative;
+  z-index: 100;
+  width: 122%;
+  left: -9px;
 }
 
 div.Meme {
