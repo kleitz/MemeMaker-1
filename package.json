@@ -1,7 +1,7 @@
 {
-  "name": "Meme Generator",
+  "name": "instagram",
   "version": "1.0.0",
-  "description": ".",
+  "description": "A step-by-step build of Instagram.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
