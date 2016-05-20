@@ -1,0 +1,312 @@
+nav {
+  margin-top: 0px;
+background-color: black;
+height: 50px;
+position: relative;
+z-index: 100;
+}
+
+div.Meme {
+
+  display: inline-block;
+  height: 250px;
+  width:350px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div.memeChoice {
+
+  display: inline-block;
+  height: 90px;
+  width:150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div.memeChoice:hover { transform: scale(1.1); }
+
+div.chooseMeme {
+
+  display: block;
+  height: 300px;
+  width:600px;
+
+}
+/*memeImg {
+
+display: block;
+z-index: -1;
+}*/
+
+memeText {
+
+display: inline;
+color: white;
+font-size: 30px;
+word-wrap: break-word;
+background:rgba(0,0,0,0.1);
+
+}
+
+
+logo {
+  float: left;
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+ /* background-color: red;*/
+  background-image: url("memegeneratorlogo.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+leftsidebar {
+height: 100%;
+width: 305px;
+display:inline;
+background-color: white;
+position: absolute;
+
+}
+
+profilepic {
+  margin-top: 30px;
+  margin-left: 30px;
+height: 100%;
+width: 305px;
+display:inline;
+background-color: white;
+position: absolute;
+
+}
+
+profile-main {
+
+  display: inline-block;
+  width: 400px;
+  position: absolute;
+  height: 100%;
+  margin-left: 20px;
+}
+
+feed {
+height: 100%;
+width: 100%;
+margin-left: 326px;
+background-color: transparent;
+padding: 10px;
+float: left;
+display: inline-block;
+border: black 1px;
+}
+inbox {
+
+  width:75%;
+  margin: 0 auto ;
+  display: block;
+
+}
+
+from {
+
+  height: 160px;
+  width: 60px;
+  display: inline-block;
+}
+
+message {
+
+border: blue 1px dashed;
+display: inline-block;
+font-size: 15px;
+padding: 50px;
+
+}
+ul.grid {
+
+  width: 700px;
+  margin: 0 auto;
+  display: block;
+}
+
+a {
+
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+
+}
+
+ul.topnav {
+    list-style-type: none;
+    padding: 0;
+    background-color: black;
+    width: 100%;
+    display: inline-block;
+    margin-left: 600px;
+    margin-top: 20px;
+    position: absolute;
+
+}
+
+newmeme {
+  margin-top: 70px;
+position: absolute;
+width: 600;
+display: block;
+left: 330px;
+}
+
+allmemes {
+position: absolute;
+width: 600;
+display: block;
+left: 330px;
+}
+
+edit {
+position: absolute;
+width: 600;
+display: block;
+left: 330px;
+}
+
+show {
+  margin-top: 70px;
+position: absolute;
+width: 600;
+display: block;
+left: 330px;
+}
+
+ul.sidenav {
+  color: white;
+  display: block;
+  height: 6000px;
+}
+a.sidenav  {
+
+  color: white;
+  display: inline-block;
+  font-size: 22px;
+  padding: 5px;
+}
+
+a.sidenav:hover  {
+
+  color: red;
+
+  font-size: 27px;
+
+}
+
+li.topnav {
+  margin-left: 50px;
+    display: inline-block;
+    color: red;
+    float: left;
+
+}
+
+a.topnav {
+
+  color: white;
+  display: inline-block;
+}
+
+a.topnav:hover {color: red;}
+
+createMeme {
+
+margin-top: 70px;
+margin-left: 325px;
+position: relative;
+float: top;
+display: inline-block;
+width: 500px;
+height: 300px;
+}
+
+
+
+newStatus {
+
+margin-top: 70px;
+position: relative;
+float: left;
+}
+
+main {
+
+  margin-top: 100px;
+}
+
+
+latestActivity {
+  margin-top: "50px";
+  display: inline-block;
+  height: "100%";
+  width: "500px";
+
+}
+
+feedItem {
+  margin-top: 20px;
+  box-shadow: 10px 10px 5px #888888;
+  width: 700px;
+  display: block;
+  padding: 9px;
+}
+
+
+
+
+.divider {
+
+  height: 150px;
+  display: block;
+}
+
+h1 {
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+}
+h3 {
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 15.4px;
+}
+p {
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+blockquote {
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+pre {
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px;
+}

@@ -1,0 +1,41 @@
+
+<script>
+
+      window.app = <%- JSON.stringify(memes) %>
+
+   console.log(window.app);
+</script>
+
+<createMeme>
+<h1>Create a new meme</h1>
+
+<chooseMeme>
+<% var i = 0; while (i < 9){ %>
+<a href="/memes/<%= i %>/edit"><div class="memeChoice" style="background-image: url(<%= memes[i].memeImage %>)"></div><a>
+<% i++; } %>
+
+
+</chooseMeme>
+
+</createMeme>
+<feed>
+<h1>Latest Memes</h1>
+
+</feed>
+<feed>
+
+<!-- Latest Memes -->
+
+
+<% var i = 0; while (i < memes.length){ %>
+<feedItem><i><%- new Date(memes[i].timestamp); %></i><p></p>
+<div class="Meme" style="background-image: url(<%= memes[i].memeImage %>)"><memeText><%= memes[i].memeText %></memeText></div>
+
+</feedItem>
+<% i++; } %>
+
+
+
+
+
+</feed>

@@ -1,0 +1,18 @@
+<newMeme>
+<h1>Upload/Create New Meme Template</h1>
+<p></p><p>
+<form method="post" action="/memes">
+
+
+  <input type="hidden" name="memes[timestamp]" id="time_stamp" value="<% Date.now(); %>">
+  </p>
+  <p>
+<label for="imageURlformean">Image URL for Meme:</label></p>
+<input type="text" name="memes[memeImage]" id="meme_image" value="URL for Meme image"></p>
+<p>
+  <label for="textformeme">Text for Meme:</label></p>
+<p><input type="text" name="memes[memeText]" id="meme_text" value="Text to appear on Meme">
+</p>
+<p><button>Upload Template</button></p>
+</form>
+</newMeme>

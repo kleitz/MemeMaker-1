@@ -1,0 +1,12 @@
+
+<show>
+<div class="Meme" style="background-image: url(<%= meme.memeImage %>)"><memeText><%= meme.memeText %></memeText></div>
+
+
+
+  <p></p><p></p>
+  <form method="post" action="/users/<%= meme.id %>">
+    <input type="hidden" name="_method" value="delete">
+    <button>Delete Meme</button>
+  </form>
+  </show>

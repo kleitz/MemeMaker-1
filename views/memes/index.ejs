@@ -1,0 +1,31 @@
+<h1>Your Friends</h1>
+<ul class="grid">
+  <% var i = 1;
+  while ( i < users.length) { %>
+    <li>
+      <ul>
+        <li>
+          <a href="/users/<%= users[i].id %>">
+            <img src="<%= users[i].image %>" alt="<%= users[i].image %>'s image.'">
+          </a>
+        </li>
+        <li>
+          <a href="/users/<%= users[i].id %>">
+            <%= users[i].name %>
+          </a>
+        </li>
+        <li><%= users[i].age %></li>
+        <li><%= users[i].bio %></li>
+        <li>
+          <a href="/users/<%= users[i].id %>/edit">Edit</a>
+        </li>
+        <li>
+          <form method="post" action="/users/<%= users[i].id %>">
+            <input type="hidden" name="_method" value="delete">
+            <button>Delete Friend</button>
+          </form>
+        </li>
+      </ul>
+    </li>
+  <% i++; } %>
+</ul>

@@ -1,0 +1,21 @@
+<edit>
+<p></p>
+<h1>Create New Meme</h1>
+
+<p><div class="Meme" style="background-image: url(<%= memes.memeImage %>)"><memeText>Your Text here</memeText></div></p>
+
+<p></p><p>
+<form method="post" action="/memes/<%= memes.id %>">
+  <input type="hidden" name="_method" value="put">
+
+  <input type="hidden" name="memes[timestamp]" id="meme_image" value="<% Date.now(); %>">
+
+  <input type="hidden" name="memes[memeImage]" id="meme_image" value="<%= memes.  memeImage %>">
+<p>
+  <label for="textformeme">Text for Meme</label></p>
+<p><input type="text" name="memes[memeText]" id="meme_text" value="<%= memes.memeText %>">
+</p>
+  <button>Create Meme</button>
+</form>
+</p>
+</edit>

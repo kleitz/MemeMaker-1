@@ -1,0 +1,17 @@
+<edit><center>
+<script>
+window.app = <%- JSON.stringify(memes) %>
+console.log(window.app);
+// this Script gets the output of Which memes are TEMPLATES (frombackend)
+var i = 0;
+while (i < window.app.length) { 
+ document.write("<p>" + window.app[i].id + "</p> ");
+ document.write("<p>" + window.app[i].timestamp + "</p> ");
+ document.write("<p>" + window.app[i].image + "</p> ");
+ document.write("<p>" + window.app[i].text + "</p> ");
+ i++;}
+</script>
+
+
+</center>
+</edit>

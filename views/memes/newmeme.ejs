@@ -1,0 +1,12 @@
+<createMeme>
+<h1>Create a new meme</h1>
+
+<chooseMeme>
+<% var i = 0; while (i < 9){ %>
+<a href="/memes/<%= memes[i].id %>/edit"><div class="memeChoice" style="background-image: url(<%= memes[i].memeImage %>)"></div><a>
+<% i++; } %>
+
+
+</chooseMeme>
+
+</createMeme>

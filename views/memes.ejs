@@ -1,0 +1,10 @@
+
+<allmemes>
+<p><h1>Memes Created</h1></p>
+<% var i = 0; while (i < memes.length){ %>
+
+<div class="Meme" style="background-image: url(<%= memes[i].memeImage %>)"><memeText><%= memes[i].memeText %></memeText></div>
+
+
+<% i++; } %>
+</allmemes>
